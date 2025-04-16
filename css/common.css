@@ -1,0 +1,64 @@
+.proceed-btn {
+    background-color: #382091;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    border-color: #382091;
+}
+.proceed-btn:hover {
+    background-color: #27176a;
+    border-color: #382091;
+}
+.b-first-div {
+    height: 247px;
+    background-color: #2b1a93;
+    position: relative;
+    padding-top: 20px; /* Adjust top padding */
+}
+
+.btn-back {
+    margin-top: 15px; /* Adds spacing from top */
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+}
+.bg-color-1{
+    background-color: #e3e6ef;
+}
+.bg-color-2{
+    background-color: #2b1a93;
+}
+.bg-color-3{
+    background-color: #9586f1;
+}
+.font-color-1{
+    color: #3d2aab;
+}
+.font-color-2{
+    color: #030d60;
+}
+
+@media (max-width: 428px) {
+    .fs-m {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 428px) and (max-width: 528px) {
+    .fs-l {
+        font-size: 13px;
+    }
+}
+
+#requestWithdraw:hover{
+    background-color: #fff;
+}

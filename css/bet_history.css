@@ -1,0 +1,175 @@
+
+#b-first-div{
+    height: 247px;
+    background-color: #2b1a93;
+    position: relative;
+}
+
+.b-profile-card {
+    margin-top: -70px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+#b-second-div{
+    background-color: #e3e6ef;
+}
+.b-profile-header {
+    background: #e4e2f3; /* Purple background */
+    color: white;
+    /* text-align: center; */
+    padding: 20px 20px 20px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+ }
+ .status {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.status-circle {
+   
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    margin-top: 13px;
+}
+
+.status-pending-badge::after {
+    content: "i"; /* Correct way to add text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+} 
+
+.bg-warning { background-color: #ffc107; } /* Yellow */
+
+
+.ticket-info {
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    display: flex;
+    border-radius: 50px; /* Rounded edges */
+    white-space: nowrap;
+}
+@media (max-width:400px) and (min-width:352px) {
+    .bfs{
+font-size: 8px;
+    }
+}
+@media (max-width:450px) and (min-width:400px) {
+    .bfs{
+        font-size: 10px;
+    }
+}
+@media (max-width:510px) and (min-width:450px) {
+    .bfs{
+        font-size: 12px;
+    }
+}
+.number-badge {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 3px solid #5c43d7; /* Purple border */
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5c43d7;
+    line-height: 35px;
+}
+
+/* .number-badge::after {
+    content: "i";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 16px;
+    height: 16px;
+    background: #5c43d7;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+} */
+
+.status-pending-badge{
+    top: -5px;
+    width: 16px;
+    height: 16px;
+    background: #4e32a8;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}
+
+.status-lost-badge{
+    top: -5px;
+    width: 16px;
+    height: 16px;
+    color: white;
+    font-size: 12px;
+    background: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}
+.status-lost-badge::after {
+    content: "✖";  /* Correct way to add text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    /* font-weight: bold; */
+    text-align: center;
+    line-height: 16px;
+} 
+
+
+.status-won-badge{
+    top: -5px;
+    width: 16px;
+    height: 16px;
+    color: white;
+    font-size: 12px;
+    background: #28a745;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}
+.status-won-badge::after {
+    content: "✔"; /* Correct way to add text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    /* font-weight: bold; */
+    text-align: center;
+    line-height: 16px;
+} 

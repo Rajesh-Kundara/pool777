@@ -1,0 +1,13 @@
+.coupen-btn{
+    background-color: #9586f1;
+}
+.coupen-btn:hover{
+    background-color: #4635af;
+}
+
+@media (max-width:400px) and (min-width:350px){
+    #date-range{
+font-size: 14px;
+    }
+}
+

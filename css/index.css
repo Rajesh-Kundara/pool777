@@ -1,0 +1,35 @@
+.game-card {
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.game-date {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.game-bonus {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.game-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.game-info {
+    font-size: 14px;
+    opacity: 0.9;
+}
+.lgi-c{
+    color: #3d2aab;
+}
+.lgi-c:hover {
+    cursor: pointer !important;
+    background-color: #f8f9fa; /* Light gray background */
+}

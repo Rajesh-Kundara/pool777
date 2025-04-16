@@ -1,0 +1,13 @@
+.btn-banker {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #9586f0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-banker.selected {
+    background: #4635af;
+    color: white;
+    border-color: #4635af;
+}

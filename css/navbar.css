@@ -1,0 +1,48 @@
+.theme-background{
+    background-color: #2b1a93;
+}
+.menu-header{
+    background-color: #e3e6ef;
+}
+
+
+        /* Main content (background behind the menu) */
+        /* Full-screen menu overlay covering only main content */
+		#fullScreenMenu {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%); /* Centers the div */
+			width: 100%;
+			max-width: 620px;
+			height: 100%;
+			/* max-height: 95vh; Optional: Limits the height */
+			background-color: #e3e6ef;
+			transition: all 0.3s ease-in-out;
+			/* display: flex; */
+			/* justify-content: center; */
+			/* align-items: center; */
+			/* flex-direction: column; */
+			/* color: white; */
+			/* border-radius: 10px; */
+		}
+
+
+
+
+        /* Close button */
+        #closeMenu {
+            /* position: absolute; */
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+        }
+
+		.menu-card-first{
+			background-color: #2b1a93;
+		}
+		.menu-card-second{
+			background-color: #e3e6ef;
+		}

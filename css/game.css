@@ -1,0 +1,409 @@
+
+.max-width{
+    max-width: 612px;
+}
+.navbar{
+    background-color: #2b1a93;
+    /* background-color: linear-gradient(9deg, #7e96e2, #0d5baf);; */
+}
+.theme-background{
+    background-color: #2b1a93;
+}
+.btn-under {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #9586f0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-under.selected {
+    background: #4635af;
+    color: white;
+    border-color: #4635af;
+}
+
+/* second btn */
+.match-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    background-color: #9586f0;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+/* toggle btn css  */
+
+
+/* Toggle switch container */
+/* Toggle Switch */
+.toggle-switch {
+    position: relative;
+    width: 50px;
+    height: 25px;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.toggle-label::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #0d1b24;
+    border-radius: 50%;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    transition: left 0.3s;
+}
+
+.toggle-input:checked + .toggle-label {
+    background-color: #d5dbe1;
+}
+
+.toggle-input:checked + .toggle-label::after {
+    left: 28px;
+}
+
+/* Match Button */
+
+
+.match-item {
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.match-info {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #9586f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 455px) {
+    .n-btn {
+      font-size: 10px;
+      /* aur bhi jo changes chahiye wo yahan likh sakte ho */
+    }
+  }
+.match-btn-b-c {
+    background: #fed500;
+    color: white;
+}
+/* Hide match details by default */
+.view-numbers-only .match-info {
+    display: none;
+}
+
+
+/* calender btn */
+
+.date-range-btn{
+    background-color: #9586f0;
+}
+.date-range-btn:hover{
+    background-color: #4635af;
+}
+
+.matchcontainer-card{
+    background-color: #4635af;
+}
+
+.footer-slack-card{
+    background-color: #0f0f68;
+}
+
+
+/* footer css */
+.p-footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 525px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p-footer a {
+    padding-top: 5px;
+    text-decoration: none;
+    color: #75758c;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-footer a.active {
+    color: #030d60; /* dark black */
+    font-weight: bold; /* optional: make it bold */
+}
+.p-footer i {
+    font-size: 20px;
+}
+/* .active {
+    position: relative;
+}
+.active::before {
+    content: "•";
+    color: #ff0080; 
+    font-size: 16px;
+    position: absolute;
+    top: -5px;
+} */
+
+/* .container {
+    max-width: 612px;
+    width: 100%;
+    margin: auto;
+} */
+.footer {
+    width: 100%;
+    max-width: 584px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17px;
+}
+
+.footer a {
+    font-size: 0.8rem;
+}
+.footer i {
+    font-size: 1.2rem;
+}
+
+
+.custom-modal {
+    max-width: 480px;
+    width: 100%; /* Ensures responsiveness */
+}
+
+
+/* toggle btn */
+
+/* White background for the toggle button */
+.custom-switch-bg {
+    background-color: white !important;
+    /* border: 1px solid #ccc; */
+}
+
+.custom-switch-bg:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%234635af'/%3e%3c/svg%3e") !important;
+    background-position: right center;
+}
+
+.custom-switch-bg:not(:checked) {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%234635af'/%3e%3c/svg%3e") !important;
+    background-position: left center;
+}
+			
+
+/* btn */
+#btnStack1{
+    background-color: #291a84;
+    border-color: #291a84;
+}
+#btnStack1:hover{
+    background-color: #11074f;
+    border-color: #11074f;
+}
+@media (max-width: 400px) {
+    .match-info {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* odds popup */
+.odds-popup {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup Wrapper (Contains Popup + Close Button) */
+
+
+/* Popup Content */
+.popup-odds-content {
+   
+    width: 100%;
+    max-width:608px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button (Now Positioned Just Above the Popup) */
+.close-odds-btn {
+    position: absolute;
+    top: -17px;
+    right: 21px;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.popup-odds-title {
+    background: #4b2ecc;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Table Header */
+.table-odds-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/* Odds List */
+.odds-list {
+    background: #4b2ecc;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Individual Odds Item */
+.odds-item {
+  
+    
+   
+    padding: 10px;
+   
+}
+
+/* Open Button */
+.open-odds-btn {
+    padding: 10px 15px;
+    background: #4b2ecc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* question button open popup */
+
+.q-popup {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Popup Content */
+.popup-q-content {
+   
+    width: 100%;
+    max-width: 608px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button (Now Positioned Just Above the Popup) */
+.close-q-btn {
+    position: absolute;
+    top: -17px;
+    right: 21px;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-match-btn {
+    width: 17%;
+}
+
+.custom-match-info {
+    width: 83%;
+}
+
+/* Responsive override */
+@media (max-width: 400px) and (min-width: 350px) {
+    .custom-match-btn {
+        width: 26% !important;
+    }
+
+    .custom-match-info {
+        width: 74% !important;
+    }
+}
+
+/* Responsive override */
+@media (max-width: 450px) and (min-width: 401px) {
+    .custom-match-btn {
+        width: 23% !important;
+    }
+
+    .custom-match-info {
+        width: 77% !important;
+    }
+}
